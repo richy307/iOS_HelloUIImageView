@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // set UIImageView 的屬性 image // UIImage：圖片資料
-        myPet.image = UIImage(named: "MyCat")
+        myPet.image = UIImage(named: "MyCat") // Assets 裡面有的圖片
         
     }
 
