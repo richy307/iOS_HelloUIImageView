@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // connect UIImageView // UIImageView：UI元件
     @IBOutlet weak var myPet: UIImageView!
     
     
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // set UIImageView 的屬性 image // UIImage：圖片資料
         myPet.image = UIImage(named: "MyCat")
         
     }
