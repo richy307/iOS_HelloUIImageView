@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // set UIImageView 的屬性 image // UIImage：圖片資料
         myPet.image = UIImage(named: "MyCat") // Assets 裡面有的圖片
         
+        // TODO: Access URL Image.
+        
     }
 
 
